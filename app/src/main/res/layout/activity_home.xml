@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bam00.csfinalapp.HomeActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeAboutImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/about"
+        android:onClick="about"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/homePrompt"
+        android:id="@+id/homePromptTextView"
+        android:textStyle="bold"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/homeAboutImageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeFindJob"
+        android:id="@+id/homeFindJobButton"
+        android:layout_marginTop="45dp"
+        android:onClick="findJob"
+        android:layout_below="@+id/homePromptTextView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeJobStatistics"
+        android:id="@+id/homeJobStatisticsButton"
+        android:layout_marginTop="40dp"
+        android:onClick="jobStatistics"
+        android:layout_below="@+id/homeFindJobButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeManageDebt"
+        android:id="@+id/homeManageDebtButton"
+        android:layout_marginTop="47dp"
+        android:onClick="manageDebt"
+        android:layout_below="@+id/homeJobStatisticsButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
