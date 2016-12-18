@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bam00.csfinalapp.JobStatisticsActivity">
+
+
+    <TextView
+        android:text="@string/jobStatisticsJobCategoryPrompt"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/jobStatisticsJobCategoryPromptTextView" />
+
+    <TextView
+        android:text="@string/jobStatisticsJobPrompt"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jobStatisticsJobCategorySpinner"
+        android:layout_toLeftOf="@+id/jobStatisticsJobCategorySpinner"
+        android:layout_toStartOf="@+id/jobStatisticsJobCategorySpinner"
+        android:layout_marginTop="41dp"
+        android:id="@+id/jobStatisticsJobPromptTextView" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jobStatisticsJobCategoryPromptTextView"
+        android:layout_toRightOf="@+id/jobStatisticsJobCategoryPromptTextView"
+        android:layout_toEndOf="@+id/jobStatisticsJobCategoryPromptTextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/jobStatisticsJobCategorySpinner"
+        android:entries="@array/jobStatisticsJobCategories"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jobStatisticsJobPromptTextView"
+        android:layout_alignLeft="@+id/jobStatisticsJobCategorySpinner"
+        android:layout_alignStart="@+id/jobStatisticsJobCategorySpinner"
+        android:id="@+id/jobStatisticsJobSpinner"
+        android:entries="@array/managementJobs"/>
+
+    <Button
+        android:text="@string/jobStatisticsGetStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/jobStatisticsJobSpinner"
+        android:layout_marginTop="60dp"
+        android:id="@+id/jobStatisticsGetStatisticsButton"
+        android:onClick="jobStatisticsResults"/>
+
+    <Button
+        android:text="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jobStatisticsGetStatisticsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/jobStatsBackButton"
+        android:onClick="home"/>
+
+</RelativeLayout>

@@ -1,0 +1,955 @@
+<resources>
+    <string name="app_name">Now What?</string>
+    <string name="back">Back</string>
+    <string name="addPayment">Add Payment</string>
+    <string name="manageDebt">Manage Debt</string>
+    <string name="monthlyPayment">Monthly Payment:</string>
+    <string name="amountError">Enter A Loan Amount Greater Than 0</string>
+    <string name="rateError">Enter An Interest Rate Greater Than 0</string>
+    <string name="termError">Enter A Loan Term Greater Than 0</string>
+    <string name="title_activity_login">Login</string>
+    <string name="loginUsernameHint">Username</string>
+    <string name="loginPasswordHint">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="passwordError">Incorrect Password</string>
+    <string name="usernameError">Incorrect Username</string>
+    <string name="emptyUsername">Username Field is Empty</string>
+    <string name="emptyPassword">Password Field is Empty</string>
+    <string name="homePrompt">What would you like to do?</string>
+    <string name="homeFindJob">Find Job</string>
+    <string name="homeJobStatistics">Job Statistics</string>
+    <string name="homeManageDebt">Manage Debt</string>
+    <string name="aboutBackButton">Back</string>
+    <string name="aboutText">Now What? is a mobile application designed to help upcoming or recent college graduates
+        who may be agonizing over the question Now What?  This app provides links to investigate careers, track student debt,
+        and more."</string>
+    <string name="findJobSavedJobs">Saved Jobs</string>
+    <string name="findJobSearch">Search</string>
+    <string name="findJobJobCategoryPrompt">Job Category: </string>
+    <string name="findJobJobPrompt">Job: </string>
+    <string name="jobStatisticsJobCategoryPrompt">Job Category: </string>
+    <string name="jobStatisticsJobPrompt">Job: </string>
+    <string name="jobStatisticsGetStatistics">Get Statistics</string>
+    <string name="manageDebtViewPlan">View Payment Plan</string>
+    <string name="manageDebtAddLoan">Add Loan</string>
+    <string name="manageDebtBack">Back</string>
+    <string name="add$">$</string>
+    <string name="addPaymentPercent"> %</string>
+    <string name="addPaymentLoanAmountHint">Loan Amount</string>
+    <string name="addPaymentInterestRateHint">Interest Rate</string>
+    <string name="addPaymentPayoffYearsHint">Loan Term (yrs)</string>
+    <string name="addPaymentBackButton">Back</string>
+    <string name="viewPaymentMonthlyPayment">Monthly Payment:</string>
+    <string name="viewPaymentAddPayment">Add Payment</string>
+
+    <string-array name="jobStatisticsJobCategories">
+        <item>Management</item>
+        <item>Business and Financial Operations</item>
+        <item>Computer and Mathematics</item>
+        <item>Architecture and Engineering</item>
+        <item>Life, Physical, and Social Science</item>
+        <item>Community and Social Service</item>
+        <item>Legal</item>
+        <item>Education, Training, and Library</item>
+        <item>Arts, Design, Entertainment, Sport, and Media</item>
+        <item>Healthcare Practitioners and Technical</item>
+        <item>Healthcare Support</item>
+        <item>Protective Service</item>
+        <item>Food Preparation and Service Related</item>
+        <item>Building and Grounds Cleaning and Maintenance</item>
+        <item>Personal Care and Service</item>
+        <item>Sales and Related</item>
+        <item>Office and Administrative Support</item>
+        <item>Farming, Fishing, and Forestry</item>
+        <item>Construction and Extraction</item>
+        <item>Installation, Maintenance, and Repair</item>
+        <item>Production</item>
+        <item>Transportation and Material Moving</item>
+    </string-array>
+
+    <string-array name="managementJobs">
+        <item>All</item>
+        <item>Chief Executives</item>
+        <item>General and Operations Managers</item>
+        <item>Legislators</item>
+        <item>Advertising and Promotions Managers</item>
+        <item>Marketing Managers</item>
+        <item>Sales Managers</item>
+        <item>Public Relations and Fundraising Managers</item>
+        <item>Administrative Services Managers</item>
+        <item>Computer and Information Systems Managers</item>
+        <item>Financial Managers</item>
+        <item>Industrial Production Managers</item>
+        <item>Purchasing Managers</item>
+        <item>Transportation, Storage, and Distribution Managers</item>
+        <item>Compensation and Benefits Managers</item>
+        <item>Human Resources Managers</item>
+        <item>Training and Development Managers</item>
+        <item>Farmers, Ranchers, and Other Agricultural Managers</item>
+        <item>Construction Managers</item>
+        <item>Education Adminstrators, Preschool and Childcare Center/Program</item>
+        <item>Education Administrators, Elementary and Secondary School</item>
+        <item>Education Administrators, Postsecondary</item>
+        <item>Education Adminstrators, All Other</item>
+        <item>Architectural and Engineering Managers</item>
+        <item>Food Service Managers</item>
+        <item>Funeral Service Managers</item>
+        <item>Gaming Managers</item>
+        <item>Lodging Managers</item>
+        <item>Medical and Health Services Managers</item>
+        <item>Natural Sciences Managers</item>
+        <item>Postmasters and Mail Superintendents</item>
+        <item>Property, Real Estate, and Community Association Managers</item>
+        <item>Social and Community Service Managers</item>
+        <item>Emergency Management Directors</item>
+        <item>Managers, All Other</item>
+    </string-array>
+    <string-array name="b_fJobs">
+        <item>All</item>
+        <item>Agents and Business Managers of Artists, Performers, and Athletes</item>
+        <item>Buyers and Purchasing Agents, Farm Products</item>
+        <item>Wholesale and Retail Buyers, Except Farm Products</item>
+        <item>Purchasing Agents, Except Wholesale, Retail, and Farm Products</item>
+        <item>Claims Adjusters, Examiners, and Investigators</item>
+        <item>Insurance Appraisers, Auto Damage</item>
+        <item>Compliance Officers</item>
+        <item>Cost Estimators</item>
+        <item>Human Resources Specialists</item>
+        <item>Farm Labor Contractors</item>
+        <item>Labor Relations Specialists</item>
+        <item>Logisticians</item>
+        <item>Management Analysis</item>
+        <item>Meeting, Convention, and Event Planners</item>
+        <item>Fundraisers</item>
+        <item>Compensation, Benefits, and Job Analysis Specialists</item>
+        <item>Training and Development Specialists</item>
+        <item>Market Research Analysts and Marketing Specialists</item>
+        <item>Business Operations Specialists, All Other</item>
+        <item>Accountants and Auditors</item>
+        <item>Appraisers and Assessors of Real Estate</item>
+        <item>Budget Analysts</item>
+        <item>Credit Analysts</item>
+        <item>Financial Analysts</item>
+        <item>Personal Financial Advisors</item>
+        <item>Insurance Underwriters</item>
+        <item>Financial Examiners</item>
+        <item>Credit Counselors</item>
+        <item>Loan Officers</item>
+        <item>Tax Examiners and Collectors, and Revenue Agents</item>
+        <item>Tax Preparers</item>
+        <item>Financial Specialists, All Other</item>
+    </string-array>
+    <string-array name="comp_mathJobs">
+        <item>All</item>
+        <item>Computer and Information Research Scientists</item>
+        <item>Computer Systems Analysts</item>
+        <item>Information Security Analysts</item>
+        <item>Computer Programmers</item>
+        <item>Software Developers, Applications</item>
+        <item>Software Developers, Systems Software</item>
+        <item>Web Developers</item>
+        <item>Database Administrators</item>
+        <item>Network and Computer Systems Administrators</item>
+        <item>Computer Network Architects</item>
+        <item>Computer User Support Specialists</item>
+        <item>Computer Network Support Specialists</item>
+        <item>Computer Occupations, All Other</item>
+        <item>Actuaries</item>
+        <item>Mathematicians</item>
+        <item>Operations Research Analysts</item>
+        <item>Statisticians</item>
+        <item>Mathematical Technicians</item>
+        <item>Mathematical Science Occupations, All Other</item>
+    </string-array>
+    <string-array name="architect_engJobs">
+        <item>All</item>
+        <item>Architects, Except Landscape and Naval</item>
+        <item>Landscape Architects</item>
+        <item>Cartographers and Photogrammetrists</item>
+        <item>Surveyors</item>
+        <item>Aerospace Engineers</item>
+        <item>Agricultural Engineers</item>
+        <item>Biomedical Engineers</item>
+        <item>Chemical Engineers</item>
+        <item>Civil Engineers</item>
+        <item>Computer Hardware Engineers</item>
+        <item>Electical Engineers</item>
+        <item>Electronics Engineers, Except Computer</item>
+        <item>Environmental Engineers</item>
+        <item>Health and Safety Engineers, Except Mining Safety Engineers and Inspectors</item>
+        <item>Industrial Engineers</item>
+        <item>Marine Engineers and Naval Architects</item>
+        <item>Materials Engineers</item>
+        <item>Mechanical Engineers</item>
+        <item>Mining and Geological Engineers, Including Mining Safety Engineers</item>
+        <item>Nuclear Engineers</item>
+        <item>Petroleum Engineers</item>
+        <item>Engineers, All Other</item>
+        <item>Architectural and Civil Drafters</item>
+        <item>Electrical and Electronics Drafters</item>
+        <item>Mechanical Drafters</item>
+        <item>Drafters, All Other</item>
+        <item>Aerospace Engineering and Operations Technicians</item>
+        <item>Civil Engineering Technicians</item>
+        <item>Electrical and Electronics Engineering Technicians</item>
+        <item>Electro-Mechanical Technicians</item>
+        <item>Environmental Engineering Technicians</item>
+        <item>Industrial Engineering Technicians</item>
+        <item>Mechanical Engineering Technicians</item>
+        <item>Engineering Technicians, Except Drafters, All Other</item>
+        <item>Surveying and Mapping Technicians</item>
+    </string-array>
+    <string-array name="life_physical_socialScienceJobs">
+        <item>All</item>
+        <item>Animal Scientists</item>
+        <item>Food Scientists and Technologists</item>
+        <item>Soil and Plant Scientists</item>
+        <item>Biochemists and Biophysicists</item>
+        <item>Microbiologists</item>
+        <item>Zoologists and Wildlife Biologists</item>
+        <item>Biological Scientists, All Other</item>
+        <item>Conservation Scientists</item>
+        <item>Foresters</item>
+        <item>Epidemiologists</item>
+        <item>Medical Scientists, Except Epidemiologists</item>
+        <item>Life Scientists, All Other</item>
+        <item>Astronomers</item>
+        <item>Physicists</item>
+        <item>Atmospheric and Space Scientists</item>
+        <item>Chemists</item>
+        <item>Material Scientists</item>
+        <item>Environmental Scientists and Specialists, Including Health</item>
+        <item>Geoscientists, Except Hydrologists and Geographers</item>
+        <item>Hydrologists</item>
+        <item>Physical Scientists, All Other</item>
+        <item>Economists</item>
+        <item> Survey Researchers</item>
+        <item>Clinical, Counseling, and School Psychologists</item>
+        <item>Industrial-Organizational Psychologists</item>
+        <item>Psychologists, All Other</item>
+        <item>Sociologists</item>
+        <item>Urban and Regional Planners</item>
+        <item>Anthropologists and Archaeologists</item>
+        <item>Geographers</item>
+        <item>Historians</item>
+        <item>Political Scientists</item>
+        <item>Social Scientists and Related Workers, All Other</item>
+        <item>Agricultural and Food Science Technicians</item>
+        <item>Biological Technicians</item>
+        <item>Chemical Technicians</item>
+        <item>Geological and Petroleum Technicians</item>
+        <item>Nuclear Technicians</item>
+        <item>Social Science Research Assistants</item>
+        <item>Environmental Science and Protection Technicians, Including Health</item>
+        <item>Forensic Science Technicians</item>
+        <item>Forest and Conservation Technicians</item>
+        <item>Life, Physical, and Social Science Technicians, All Other</item>
+    </string-array>
+    <string-array name="comm_socialServiceJobs">
+        <item>All</item>
+        <item>Substance Abuse and Behavioral Disorder Counselors</item>
+        <item>Educational Guidance, School, and Vocational Couselors</item>
+        <item>Marriage and Family Therapists</item>
+        <item>Mental Health Counselors</item>
+        <item>Rehabilitation Counselors</item>
+        <item>Counselors, All Other</item>
+        <item>Child, Family, and School Social Workers</item>
+        <item>Healthcare Social Workers</item>
+        <item>Mental Health and Substance Abuse Social Workers</item>
+        <item>Social Workers, All Other</item>
+        <item>Health Educators</item>
+        <item>Probation Officers and Correctional Treatment Specialists</item>
+        <item>Social and Human Service Assistants</item>
+        <item>Community Health Workers</item>
+        <item>Community and Social Service Specialists, All Other</item>
+        <item>Clergy</item>
+        <item>Directors, Religious Activities and Education</item>
+        <item>Religious Workers, All Other</item>
+    </string-array>
+    <string-array name="legalJobs">
+        <item>All</item>
+        <item>Lawyers</item>
+        <item>Judicial Law Clerks</item>
+        <item>Administrative Law Judges, Adjudicators and Hearing Officers</item>
+        <item>Arbitrators, Mediators, and Conciliators</item>
+        <item>Judges, Magistrate Judges, and Magistrates</item>
+        <item>Paralegals and Legal Assistants</item>
+        <item>Court Reporters</item>
+        <item>Title Examiners, Abstractors, and Searchers</item>
+        <item>Legal Support Workers, All Other</item>
+    </string-array>
+    <string-array name="education_training_libraryJobs">
+        <item>All</item>
+        <item>Business Teachers, Postsecondary</item>
+        <item>Computer Science Teachers, Postsecondary</item>
+        <item>Mathematical Science Teachers, Postsecondary</item>
+        <item>Architecture Teachers, Postsecondary</item>
+        <item>Engineering Teachers, Postsecondary</item>
+        <item>Agricultural Sciences Teachers, Postsecondary</item>
+        <item>Bilogical Science Teachers, Postsecondary</item>
+        <item>Forestry and Conservation Science Teachers, Postsecondary</item>
+        <item>Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary</item>
+        <item>Chemistry Teachers, Postsecondary</item>
+        <item>Environmental Science Teachers, Postsecondary</item>
+        <item>Physics Teachers, Postsecondary</item>
+        <item>Anthropology and Archeology Teachers, Postsecondary</item>
+        <item>Area, Ethnic, and Cultural Studies Teachers, Postsecondary</item>
+        <item>Economics Teachers, Postsecondary</item>
+        <item>Geography Teachers, Postsecondary</item>
+        <item>Political Science Teachers, Postsecondary</item>
+        <item>Psychology Teachers, Postsecondary</item>
+        <item>Sociology Teachers, Postsecondary</item>
+        <item>Social Sciences Teachers, Postsecondary, All Other</item>
+        <item>Health Specialties Teachers, Postsecondary</item>
+        <item>Nursing Instructors and Teachers, Postsecondary</item>
+        <item>Education Teachers, Postsecondary</item>
+        <item>Library Science Teachers, Postsecondary</item>
+        <item>Criminal Justice and Law Enforcement Teachers, Postsedondary</item>
+        <item>Law Teachers, Postsecondary</item>
+        <item>Social Work Teachers, Postsecondary</item>
+        <item>Art, Drama, and Music Teachers, Postsecondary</item>
+        <item>Communications Teachers, Postsecondary</item>
+        <item>English Language and Literature Teachers, Postsecondary</item>
+        <item>Foreign Language and Literature Teachers, Postsecondary</item>
+        <item>History Teachers, Postsecondary</item>
+        <item>Philosophy and Religion Teachers, Postsecondary</item>
+        <item>Graduate Teaching Assistants</item>
+        <item>Home Economics Teachers, Postsecondary</item>
+        <item>Recreation and Fitness Studies Teachers, Postsecondary</item>
+        <item>Vocational Education Teachers, Postsecondary</item>
+        <item>Postsecondary Teachers, All Other</item>
+        <item>Preschool Teachers, Except Special Education</item>
+        <item>Kindergarten Teachers, Except Special Education</item>
+        <item>Elementary School Teachers, Except Special Education</item>
+        <item>Middle School Teachers, Except Special and Career/Technical Education</item>
+        <item>Career/Technical Education Teachers, Middle School</item>
+        <item>Secondary School Teachers, Except Special and Career/Technical Education</item>
+        <item>Career/Technical Education Teachers, Secondary School</item>
+        <item>Special Education Teachers, Preschool</item>
+        <item>Special Education Teachers, Kindergarten and Elementary School</item>
+        <item>Special Education Teachers, Middle School</item>
+        <item>Special Education Teachers, Secondary School</item>
+        <item>Special Education Teachers, All Other</item>
+        <item>Adult Basic and Secondary Education and Literacy Teacher and Instructors</item>
+        <item>Self-Enrichment Education Teachers</item>
+        <item>Teachers and Instructors, All Other, Except Substitute Teachers</item>
+        <item>Subsitute Teachers</item>
+        <item>Archivists</item>
+        <item>Curators</item>
+        <item>Museum Technicians and Conservators</item>
+        <item>Librarians</item>
+        <item>Library Technicians</item>
+        <item>Audio-Visual and Multimedia Collections Specialists</item>
+        <item>Farm and Home Management Advisors</item>
+        <item>Instructional Coordinators</item>
+        <item>Teacher Assistants</item>
+        <item>Education, Training, and Library Workers, All Other</item>
+    </string-array>
+    <string-array name="arts_design_entertainment_sports_mediaJobs">
+        <item>All</item>
+        <item>Art Directors</item>
+        <item>Craft Artists</item>
+        <item>Fine Artists, Including Painters, Sculptors, and Illustrators</item>
+        <item>Multimedia Artists and Animators</item>
+        <item>Artists and Related Workers, All Other</item>
+        <item>Commercial and Industrial Designers</item>
+        <item>Fashion Designers</item>
+        <item>Floral Designers</item>
+        <item>Graphic Designers</item>
+        <item>Interior Designers</item>
+        <item>Merchandise Displayers and Window Trimmers</item>
+        <item>Set and Exhibit Designers</item>
+        <item>Designers, All Other</item>
+        <item>Actors</item>
+        <item>Producers and Directors</item>
+        <item>Athletes and Sports Competitors</item>
+        <item>Coaches and Scouts</item>
+        <item>Umpires, Referees, and Other Sports Officials</item>
+        <item>Dancers</item>
+        <item>Choreographers</item>
+        <item>Music Directors and Composers</item>
+        <item>Musicians and Singers</item>
+        <item>Entertainers and Performers, Sports and Related Workers, All Other</item>
+        <item>Radio and Television Announcers</item>
+        <item>Public Address System and Other Announcers</item>
+        <item>Broadcast News Analysts</item>
+        <item>Reporters and Correspondents</item>
+        <item>Public Relations Specialists</item>
+        <item>Editors</item>
+        <item>Technical Writers</item>
+        <item>Writers and Authors</item>
+        <item>Interpreters and Translators</item>
+        <item>Media and Communication Workers, All Other</item>
+        <item>Audio and Video Equipment Technicians</item>
+        <item>Broadcast Technicians</item>
+        <item>Radio Operators</item>
+        <item>Sound Engineering Technicians</item>
+        <item>Photographers</item>
+        <item>Camera Operators, Television, Video, and Motion Picture</item>
+        <item>Film and Video Editors</item>
+        <item>Media and Communication Equipment Workers, All Other</item>
+    </string-array>
+    <string-array name="healthcarePracticioners_techJobs">
+        <item>All</item>
+        <item>Chiropractors</item>
+        <item>Dentists, General</item>
+        <item>Oral and Maxillofacial Surgeons</item>
+        <item>Orthodontists</item>
+        <item>Prosthodontists</item>
+        <item>Dentists, All Other Specialists</item>
+        <item>Dietitians and Nutritionists</item>
+        <item>Optometrists</item>
+        <item>Pharmacists</item>
+        <item>Anestesiologists</item>
+        <item>Family and General Practicioners</item>
+        <item>Internists, General</item>
+        <item>Obstetricians and Gynecologists</item>
+        <item>Pediatricians, General</item>
+        <item>Psychiatrists</item>
+        <item>Surgeons</item>
+        <item>Physicians and Surgeons, All Other</item>
+        <item>Physician Assistants</item>
+        <item>Podiatrists</item>
+        <item>Occupational Therapists</item>
+        <item>Physical Therapists</item>
+        <item>Radiation Therapists</item>
+        <item>Recreational Therapists</item>
+        <item>Respiratory Therapists</item>
+        <item>Speech-Language Pathologists</item>
+        <item>Exercise Physiologists</item>
+        <item>Therapists, All Other</item>
+        <item>Veterinarians</item>
+        <item>Registered Nurses</item>
+        <item>Nurse Anesthetists</item>
+        <item>Nurse Midwives</item>
+        <item>Nurse Practitioners</item>
+        <item>Audiologists</item>
+        <item>Health Diagnosing and Treating Pracitioners, All Other</item>
+        <item>Medical and Clinical Laboratory Technologists</item>
+        <item>Dental Hygienists</item>
+        <item>Cardiovascular Technologists and Technicians</item>
+        <item>Diagnostic Medical Sonographers</item>
+        <item>Nuclear Medicine Technologists</item>
+        <item>Radiologic Technologists</item>
+        <item>Magnetic Resonance Imaging Technologists</item>
+        <item>Emergency Medical Technicians and Paramedics</item>
+        <item>Dietetic Technicians</item>
+        <item>Pharmacy Technicians</item>
+        <item>Psychiatric Technicians</item>
+        <item>Respiratory Therapy Technicians</item>
+        <item>Surgical Technologists</item>
+        <item>Veterinary Technologists and Technicians</item>
+        <item>Ophthalmic Medical Technicians</item>
+        <item>Licensed Practical and Licensed Vocational Nurses</item>
+        <item>Medical Records and Health Information Technicians</item>
+        <item>Opticians, Dispensing</item>
+        <item>Orthotists and Prosthetists</item>
+        <item>Hearing Aid Specialists</item>
+        <item>Health Technologists and Technicians, All Other</item>
+        <item>Occupational Health and Safety Specialists</item>
+        <item>Occupational Health and Safety Technicians</item>
+        <item>Athletic Trainers</item>
+        <item>Genetic Counselors</item>
+        <item>Healthcare Practitioners and Technical Workers, All Other</item>
+    </string-array>
+    <string-array name="healthcareSupportJobs">
+        <item>All</item>
+        <item>Home Health Aides</item>
+        <item>Psychiatric Aides</item>
+        <item>Nursing Assistants</item>
+        <item>Orderlies</item>
+        <item>Occupational Therapy Assistants</item>
+        <item>Occupational Therapy Aides</item>
+        <item>Physical Therapist Assitants</item>
+        <item>Physical Therapist Aides</item>
+        <item>Massage Therapists</item>
+        <item>Dental Assistants</item>
+        <item>Medical Assistants</item>
+        <item>Medical Equipment Preparers</item>
+        <item>Medical Transcriptionists</item>
+        <item>Pharmacy Aides</item>
+        <item>Veterinary Assistants and Laboratory Animal Caretakers</item>
+        <item>Phlebotomists</item>
+        <item>Healthcare Support Workers, All Other</item>
+    </string-array>
+    <string-array name="protectiveServiceJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Correctional Officers</item>
+        <item>First-Line Supervisors of Police and Detectives</item>
+        <item>First-Line Supervisors of Fire Fighting and Prevention Workers</item>
+        <item>First-Line Supervisors of Protective Service Workers, All Other</item>
+        <item>Firefighters</item>
+        <item>Fire Inspectors and Investigators</item>
+        <item>Forest Fire Inspectors and Prevention Specialists</item>
+        <item>Bailiffs</item>
+        <item>Correctional Officers and Jailers</item>
+        <item>Detectives and Criminal Investigators</item>
+        <item>Fish and Game Wardens</item>
+        <item>Parking Enforcement Workers</item>
+        <item>Police and Sheriff Patrol Officers</item>
+        <item>Transit and Railroad Police</item>
+        <item>Animal Control Workers</item>
+        <item>Private Detectives and Investigators</item>
+        <item>Gaming Surveillance Officers and Gaming Investigators</item>
+        <item>Security Guards</item>
+        <item>Crossing Guards</item>
+        <item>Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers</item>
+        <item>Transportation Security Screeners</item>
+        <item>Protective Service Workers, All Others</item>
+    </string-array>
+    <string-array name="foodPrep_servingJobs">
+        <item>All</item>
+        <item>Chefs and Head Cooks</item>
+        <item>First-Line Supervisors of Food Preparation and Serving Workers</item>
+        <item>Cooks, Fast Food</item>
+        <item>Cooks, Institution and Cafeteria</item>
+        <item>Cooks, Private Household</item>
+        <item>Cooks, Restaurant</item>
+        <item>Cooks, Short Order</item>
+        <item>Cooks, All Other</item>
+        <item>Food Preparation Workers</item>
+        <item>Bartenders</item>
+        <item>Combined Food Preparation and Serving Workers, Including Fast Food</item>
+        <item>Counter Attendants, Cafeteria, Food Concession, and Coffee Shop</item>
+        <item>Waiters and Waitresses</item>
+        <item>Food Servers, Nonrestaurant</item>
+        <item>Dining Room and Cafeteria Attendants and Bartender Helpers</item>
+        <item>Dishwashers</item>
+        <item>Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop</item>
+        <item>Food Preparation and Serving Related Workers, All Other</item>
+    </string-array>
+    <string-array name="building_groundsCleaningJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Housekeeping and Janitorial Workers</item>
+        <item>First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers</item>
+        <item>Janitors and Cleaners, Except Maids and Housekeeping Cleaners</item>
+        <item>Maids and Housekeeping Cleaners</item>
+        <item>Building Cleaning Workers, All Other</item>
+        <item>Pest Control Workers</item>
+        <item>Landscaping and Groundskeeping Workers</item>
+        <item>Pesticide Handlers, Sprayers and Applicators, Vegetation</item>
+        <item>Tree Trimmers and Pruners</item>
+        <item>Grounds Maintenance Workers, All Other</item>
+    </string-array>
+    <string-array name="personalCareJobs">
+        <item>All</item>
+        <item>Gaming Supervisors</item>
+        <item>Slot Supervisors</item>
+        <item>First-Line Supervisors of Personal Service Workers</item>
+        <item>Animal Trainers</item>
+        <item>Nonfarm Animal Caretakers</item>
+        <item>Gaming Dealers</item>
+        <item>Gaming and Sports Book Writers and Runners</item>
+        <item>Gaming Service Workers, All Other</item>
+        <item>Motion Picture Projectionists</item>
+        <item>Ushers, Lobby Attendants, and Ticket Takers</item>
+        <item>Amusement and Recreation Attendants</item>
+        <item>Costume Attendants</item>
+        <item>Locker Room, Coatroom, and Dressing Room Attendants</item>
+        <item>Entertainment Attendants and Related Workers, All Other</item>
+        <item>Embalmers</item>
+        <item>Funeral Attendants</item>
+        <item>Morticians, Undertakers, and Funeral Directors</item>
+        <item>Barbers</item>
+        <item>Hairdressers, Hairstylists, and Cosmetologists</item>
+        <item>Makeup Artists, Theatrical and Performance</item>
+        <item>Manicurists and Pedicurists</item>
+        <item>Shampooers</item>
+        <item>Skincare Specialists</item>
+        <item>Baggage Porters and Bellhops</item>
+        <item>Concierges</item>
+        <item>Tour Guides and Escorts</item>
+        <item>Travel Guides</item>
+        <item>Childcare Workers</item>
+        <item>Personal Care Aides</item>
+        <item>Fitness Trainers and Aerobics Instructors</item>
+        <item>Recreation Workers</item>
+        <item>Residential Advisors</item>
+        <item>Personal Care and Service Workers, All Other</item>
+    </string-array>
+    <string-array name="sales_relatedJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Retail Sales Workers</item>
+        <item>First-Line Supervisors of Non-Retail Sales Workers</item>
+        <item>Cashiers</item>
+        <item>Gaming Change Persons and Booth Cashiers</item>
+        <item>Counter and Rental Clerks</item>
+        <item>Parts Salespersons</item>
+        <item>Retail Salespersons</item>
+        <item>Advertising Sales Agents</item>
+        <item>Insurance Sales Agents</item>
+        <item>Securities, Commodities, and Financial Services Sales Agents</item>
+        <item>Travel Agents</item>
+        <item>Sales Representatives, Services, All Other</item>
+        <item>Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products</item>
+        <item>Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products</item>
+        <item>Demonstrators and Product Promoters</item>
+        <item>Models</item>
+        <item>Real Estate Brokers</item>
+        <item>Real Estate Sales Agents</item>
+        <item>Sales Engineers</item>
+        <item>Telemarketers</item>
+        <item>Door-To-Door Sales Workers, News and Street Vendors, and Related Workers</item>
+        <item>Sales and Related Workers, All Other</item>
+    </string-array>
+    <string-array name="office_adminSupportJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Office and Administrative Support Workers</item>
+        <item>Switchboard Operators, Including Answering Service</item>
+        <item>Telephone Operators</item>
+        <item>Communications Equipment Operators, All Other</item>
+        <item>Bill and Account Collectors</item>
+        <item>Billing and Posting Clerks</item>
+        <item>Bookkeeping, Accounting, and Auditing Clerks</item>
+        <item>Gaming Cage Workers</item>
+        <item>Payroll and Timekeeping Clerks</item>
+        <item>Procurement Clerks</item>
+        <item>Tellers</item>
+        <item>Financial Clerks, All Other</item>
+        <item>Brokerage Clerks</item>
+        <item>Correspondence Clerks</item>
+        <item>Court, Municipal, and License Clerks</item>
+        <item>Credit Authorizers, Checkers, and Clerks</item>
+        <item>Customer Service Representatives</item>
+        <item>Eligibility Interviewers, Government Programs</item>
+        <item>File Clerks</item>
+        <item>Hotel, Motel, and Resort Desk Clerks</item>
+        <item>Interviewers, Except Eligibility and Loan</item>
+        <item>Library Assistants, Clerical</item>
+        <item>Loan Interviewers and Clerks</item>
+        <item>New Accounts Clerks</item>
+        <item>Order Clerks</item>
+        <item>Human Resources Assistants, Except Payroll and Timekeeping</item>
+        <item>Receptionists and Information Clerks</item>
+        <item>Reservation and Transportation Ticket Agents and Travel Clerks</item>
+        <item>Information and Record Clerks, All Other</item>
+        <item>Cargo and Freight Agents</item>
+        <item>Couriers and Messengers</item>
+        <item>Police, Fire, and Ambulance Dispatchers</item>
+        <item>Dispatchers, Except Police, Fire, and Ambulance</item>
+        <item>Meter Readers, Utilities</item>
+        <item>Postal Service Clerks</item>
+        <item>Postal Service Mail Carriers</item>
+        <item>Postal Service Mail Sorters, Processors, and Processing Machine Operators</item>
+        <item>Production, Planning, and Expediting Clerks</item>
+        <item>Shipping, Receiving, and Traffic Clerks</item>
+        <item>Stock Clerks and Order Fillers</item>
+        <item>Weighers, Measurers, Checkers and Samplers, Recordkeeping</item>
+        <item>Executive Secretaries and Executive Administrative Assistants</item>
+        <item>Legal Secretaries</item>
+        <item>Medical Secretaries</item>
+        <item>Secretaries and Administrative Assistants, Except Legal, Medical, and Executive</item>
+        <item>Computer Operators</item>
+        <item>Data Entry Keyers</item>
+        <item>Word Processors and Typists</item>
+        <item>Desktop Publishers</item>
+        <item>Insurance Claims and Policy Processing Clerks</item>
+        <item>Mail Clerks and Mail Machine Operators, Except Postal Service</item>
+        <item>Office Clerks, General</item>
+        <item>Office Machine Operators, Except Computer</item>
+        <item>Proofreaders and Copy Markers</item>
+        <item>Statistical Assistants</item>
+        <item>Office and Administrative Support Workers, All Other</item>
+    </string-array>
+    <string-array name="farming_fishing_forestryJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Farming, Fishing, and Forestry Workers</item>
+        <item>Agricultural Inspectors</item>
+        <item>Animal Breeders</item>
+        <item>Graders and Sorters, Agricultural Products</item>
+        <item>Agricultural Equipment Operators</item>
+        <item>Farmworkers and Laborers, Crop, Nursery, and Greenhouse</item>
+        <item>Farmworkers, Farm, Ranch, and Aquacultural Animals</item>
+        <item>Agricultural Workers, All Other</item>
+        <item>Fishers and Related Fishing Workers</item>
+        <item>Forest and Conservation Workers</item>
+        <item>Fallers</item>
+        <item>Logging Equipment Operators</item>
+        <item>Log Graders and Scalars</item>
+        <item>Logging Workers, All Other</item>
+    </string-array>
+    <string-array name="construction_extractionJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Construction Trades and Extraction Workers</item>
+        <item>Boilermakers</item>
+        <item>Brickmasons and Blockmasons</item>
+        <item>Stonemasons</item>
+        <item>Carpenters</item>
+        <item>Carpet Installers</item>
+        <item>Floor Layers, Except Carpet, Wood, and Hard Tiles</item>
+        <item>Floor Sanders and Finishers</item>
+        <item>Tile and Marble Setters</item>
+        <item>Cement Masons and Concrete Finishers</item>
+        <item>Terrazzo Workers and Finishers</item>
+        <item>Construction Laborers</item>
+        <item>Paving, Surfacing, and Tamping Equipment Operators</item>
+        <item>Pile-Driver Operators</item>
+        <item>Operating Engineers and Other Construction Equipment Operators</item>
+        <item>Drywall and Ceiling Tile Installers</item>
+        <item>Tapers</item>
+        <item>Electricians</item>
+        <item>Glaziers</item>
+        <item>Insulation Workers, Floor, Ceiling, and Wall</item>
+        <item>Insulation Workers, Mechanical</item>
+        <item>Painters, Construction and Maintenance</item>
+        <item>Paperhangers</item>
+        <item>Pipelayers</item>
+        <item>Plumbers, Pipefitters, and Steamfitters</item>
+        <item>Plasterers and Stucco Masons</item>
+        <item>Reinforcing Iron and Rebar Workers</item>
+        <item>Roofers</item>
+        <item>Sheet Metal Workers</item>
+        <item>Structural Iron and Steel Workers</item>
+        <item>Solar Photovoltaic Installers</item>
+        <item>Helpers - Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters</item>
+        <item>Helpers - Carpenters</item>
+        <item>Helpers - Electricians</item>
+        <item>Helpers - Painters, Paperhangers, Plasterers, and Stucco Masons</item>
+        <item>Helpers - Pipelayers, Plumbers, Pipefitters and Steamfitters</item>
+        <item>Helpers - Roofers</item>
+        <item>Helpers, Construction Trades, All Other</item>
+        <item>Construction and Building Inspectors</item>
+        <item>Elevator Installers and Repairers</item>
+        <item>Fence Erectors</item>
+        <item>Hazardous Materials Removal Workers</item>
+        <item>Highway Maintenance Workers</item>
+        <item>Rail-Track Laying and Maintenance Equipment Operators</item>
+        <item>Septic Tank Servicers and Sewer Pipe Cleaners</item>
+        <item>Segmental Pavers</item>
+        <item>Construction and Related Workers, All Other</item>
+        <item>Derrick Operators, Oil and Gas</item>
+        <item>Rotary Drill Operators, Oil and Gas</item>
+        <item>Service Unit Operators, Oil, Gas, and Mining</item>
+        <item>Earth Drillers, Except Oil and Gas</item>
+        <item>Explosives Workers, Ordnance Handling Experts, and Blasters</item>
+        <item>Continuous Mining Machine Operators</item>
+        <item>Mine Cutting and Channeling Machine Operators</item>
+        <item>Mining Machine Operators, All Other</item>
+        <item>Rock Splitters, Quarry</item>
+        <item>Roof Bolters, Mining</item>
+        <item>Roustabouts, Oil and Gas</item>
+        <item>Helpers - Extraction Workers</item>
+        <item>Extraction Workers, All Other</item>
+    </string-array>
+    <string-array name="install_maintain_repairJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Mechanics, Installers, and Repairers</item>
+        <item>Computer, Automated Teller, and Office Machine Repairers</item>
+        <item>Radio, Cellular, and Tower Equipment Installers and Repairers</item>
+        <item>Telecommunications Equipment Installers and Repairers, Except Line Installers</item>
+        <item>Avionics Technicians</item>
+        <item>Electric Motor, Power Tool, and Related Repairers</item>
+        <item>Electrical and Electronics Installers and Repairers, Transportation Equipment</item>
+        <item>Electrical and Electronics Repairers, Commercial and Industrial Equipment</item>
+        <item>Electrical and Electronics Repairers, Powerhouse, Substation, and Relay</item>
+        <item>Electronic Equipment Installers and Repairers, Motor Vehicles</item>
+        <item>Electronic Home Entertainment Equipment Installers and Repairers</item>
+        <item>Security and Fire Alarm Systems Installers</item>
+        <item>Aircraft Mechanics and Service Technicians</item>
+        <item>Automotive Body and Related Repairers</item>
+        <item>Automotive Glass Installers and Repairers</item>
+        <item>Automotive Service Technicians and Mechanics</item>
+        <item>Bus and Truck Mechanics and Diesel Engine Specialists</item>
+        <item>Farm Equipment Mechanics and Service Technicians</item>
+        <item>Mobile Heavy Equipment Mechanics, Except Engines</item>
+        <item>Rail Car Repairers</item>
+        <item>Motorboat Mechanics and Service Technicians</item>
+        <item>Motorcycle Mechanics</item>
+        <item>Outdoor Power Equipment and Other Small Engine Mechanics</item>
+        <item>Bicycle Repairers</item>
+        <item>Recreational Vehicle Service Technicians</item>
+        <item>Tire Repairers and Changers</item>
+        <item>Mechanical Door Repairers</item>
+        <item>Control and Valve Installers and Repairers, Except Mechanical Door</item>
+        <item>Heating, Air Conditioning, and Refrigeration Mechanics and Installers</item>
+        <item>Home Appliance Repairers</item>
+        <item>Industrial Machinery Mechanics</item>
+        <item>Maintenance Workers, Machinery</item>
+        <item>Millwrights</item>
+        <item>Refractory Materials Repairers, Except Brickmasons</item>
+        <item>Electrical Power-Line Installers and Repairers</item>
+        <item>Telecommunications Line Installers and Repairers</item>
+        <item>Camera and Photographic Equipment Repairers</item>
+        <item>Medical Equipment Repairers</item>
+        <item>Musical Instrument Repairers and Tuners</item>
+        <item>Watch Repairers</item>
+        <item>Precision Instrument and Equipment Repairers, All Other</item>
+        <item>Maintenance and Repair Workers, General</item>
+        <item>Wind Turbine Service Technicians</item>
+        <item>Coin, Vending, and Amusement Machine Servicers and Repairers</item>
+        <item>Commercial Divers</item>
+        <item>Fabric Menders, Except Garment</item>
+        <item>Locksmiths and Safe Repairers</item>
+        <item>Manufactured Building and Mobile Home Installers</item>
+        <item>Riggers</item>
+        <item>Signal and Track Switch Repairers</item>
+        <item>Helpers - Installation, Maintenance, and Repair Workers</item>
+        <item>Installation, Maintenance, and Repair Workers, All Other</item>
+    </string-array>
+    <string-array name="productionJobs">
+        <item>All</item>
+        <item>First-Line Supervisors of Production and Operating Workers</item>
+        <item>Aircraft Structure, Surfaces, Rigging, and Systems Assemblers</item>
+        <item>Coil Winders, Tapers, and Finishers</item>
+        <item>Electrical and Electronic Equipment Assemblers</item>
+        <item>Electromechanical Equipment Assemblers</item>
+        <item>Engine and Other Machine Assemblers</item>
+        <item>Structural Metal Fabricators and Fitters</item>
+        <item>Fiberglass Laminators and Fabricators</item>
+        <item>Team Assemblers</item>
+        <item>Timing Device Assemblers and Adjusters</item>
+        <item>Assemblers and Fabricators, All Other</item>
+        <item>Bakers</item>
+        <item>Butchers and Meat Cutters</item>
+        <item>Meat, Poultry, and Fish Cutters and Trimmers</item>
+        <item>Slaughterers and Meat Packers</item>
+        <item>Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders</item>
+        <item>Food Batchmakers</item>
+        <item>Food Cooking Machine Operators and Tenders</item>
+        <item>Food Processing Workers, All Other</item>
+        <item>Computer-Controlled Machine Tool Operators, Metal and Plastic</item>
+        <item>Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic</item>
+        <item>Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Forging Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Rolling Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Machinists</item>
+        <item>Metal-Refining Furnace Operators and Tenders</item>
+        <item>Pourers and Casters, Metal</item>
+        <item>Model Makers, Metal and Plastic</item>
+        <item>Patternmakers, Metal and Plastic</item>
+        <item>Foundry Mold and Coremakers</item>
+        <item>Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Tool and Die Makers</item>
+        <item>Welders, Cutters, Solderers, and Brazers</item>
+        <item>Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders</item>
+        <item>Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Layout Workers, Metal and Plastic</item>
+        <item>Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic</item>
+        <item>Tool Grinders, Filers, and Sharpeners</item>
+        <item>Metal Workers and Plastic Workers, All Other</item>
+        <item>Prepress Technicians and Workers</item>
+        <item>Printing Press Operators</item>
+        <item>Print Binding and Finishing Workers</item>
+        <item>Laundry and Dry-Cleaning Workers</item>
+        <item>Pressers, Textile, Garment, and Related Materials</item>
+        <item>Sewing Machine Operators</item>
+        <item>Shoe and Leather Workers and Repairers</item>
+        <item>Shoe Machine Operators and Tenders</item>
+        <item>Sewers, Hand</item>
+        <item>Tailors, Dressmakers, and Custom Sewers</item>
+        <item>Textile Bleaching and Dyeing Machine Operators and Tenders</item>
+        <item>Textile Cutting Machine Setters, Operators, and Tenders</item>
+        <item>Textile Knitting and Weaving Machine Setters, Operators, and Tenders</item>
+        <item>Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders</item>
+        <item>Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers</item>
+        <item>Fabric and Apparel Patternmakers</item>
+        <item>Upholsterers</item>
+        <item>Textile, Apparel, and Furnishings Workers, All Other</item>
+        <item>Cabinetmakers and Bench Carpenters</item>
+        <item>Furniture Finishers</item>
+        <item>Model Makers, Wood</item>
+        <item>Patternmakers, Wood</item>
+        <item>Sawing Machine Setters, Operators, and Tenders, Wood</item>
+        <item>Woodworking Machine Setters, Operators, and Tenders, Except Sawing</item>
+        <item>Woodworkers, All Other</item>
+        <item>Nuclear Power Reactor Operators</item>
+        <item>Power Distributors and Dispatchers</item>
+        <item>Power Plant Operators</item>
+        <item>Stationary Engineers and Boiler Operators</item>
+        <item>Water and Wastewater Treatment Plant and System Operators</item>
+        <item>Chemical Plant and System Operators</item>
+        <item>Gas Plant Operators</item>
+        <item>Petroleum Pump System Operators, Refinery Operators, and Gaugers</item>
+        <item>Plant and System Operators, All Other</item>
+        <item>Chemical Equipment Operators and Tenders</item>
+        <item>Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders</item>
+        <item>Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders</item>
+        <item>Grinding and Polishing Workers, Hand</item>
+        <item>Mixing and Blending Machine Setters, Operators, and Tenders</item>
+        <item>Cutters and Trimmers, Hand</item>
+        <item>Cutting and Slicing Machine Setters, Operators, and Tenders</item>
+        <item>Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders</item>
+        <item>Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders</item>
+        <item>Inspectors, Testers, Sorters, Samplers, and Weighers</item>
+        <item>Jewelers and Precious Stone and Metal Workers</item>
+        <item>Dental Laboratory Technicians</item>
+        <item>Medical Appliance Technicians</item>
+        <item>Ophthalmic Laboratory Technicians</item>
+        <item>Packaging and Filling Machine Operators and Tenders</item>
+        <item>Coating, Painting, and Spraying Machine Setters, Operators, and Tenders</item>
+        <item>Painters, Transportation Equipment</item>
+        <item>Painting, Coating, and Decorating Workers</item>
+        <item>Semiconductor Processors</item>
+        <item>Photographic Process Workers and Processing Machine Operators</item>
+        <item>Adhesive Bonding Machine Operators and Tenders</item>
+        <item>Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders</item>
+        <item>Cooling and Freezing Equipment Operators and Tenders</item>
+        <item>Etchers and Engravers</item>
+        <item>Molders, Shapers, and Casters, Except Metal and Plastic</item>
+        <item>Paper Goods Machine Setters, Operators, and Tenders</item>
+        <item>Tire Builders</item>
+        <item>Helpers - Production Workers</item>
+        <item>Production Workers, All Other</item>
+    </string-array>
+    <string-array name="transport_materialMovingJobs">
+        <item>All</item>
+        <item>Aircraft Cargo Handling Supervisors</item>
+        <item>First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand</item>
+        <item>First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators</item>
+        <item>Airline Pilots, Copilots, and Flight Engineers</item>
+        <item>Commercial Pilots</item>
+        <item>Air Traffic Controllers</item>
+        <item>Airfield Operations Specialists</item>
+        <item>Flight Attendants</item>
+        <item>Ambulance Drivers and Attendants, Except Emergency Medical Technicians</item>
+        <item>Bus Drivers, Transit and Intercity</item>
+        <item>Bus Drivers, School or Special Client</item>
+        <item>Driver/Sales Workers</item>
+        <item>Heavy and Tractor-Trailer Truck Drivers</item>
+        <item>Light Truck or Delivery Services Drivers</item>
+        <item>Taxi Drivers and Chauffeurs</item>
+        <item>Motor Vehicle Operators, All Other</item>
+        <item>Locomotive Engineers</item>
+        <item>Locomotive Firers</item>
+        <item>Rail Yard Engineers, Dinkey Operators, and Hostlers</item>
+        <item>Railroad Brake, Signal, and Switch Operators</item>
+        <item>Railroad Conductors and Yardmasters</item>
+        <item>Subway and Streetcar Operators</item>
+        <item>Rail Transportation Workers, All Other</item>
+        <item>Sailors and Marine Oilers</item>
+        <item>Captains, Mates, and Pilots of Water Vessels</item>
+        <item>Motorboat Operators</item>
+        <item>Ship Engineers</item>
+        <item>Bridge and Lock Tenders</item>
+        <item>Parking Lot Attendants</item>
+        <item>Automotive and Watercraft Service Attendants</item>
+        <item>Traffic Technicians</item>
+        <item>Transportation Inspectors</item>
+        <item>Transportation Attendants, Except Flight Attendants</item>
+        <item>Transportation Workers, All Other</item>
+        <item>Conveyor Operators and Tenders</item>
+        <item>Crane and Tower Operators</item>
+        <item>Dredge Operators</item>
+        <item>Excavating and Loading Machine and Dragline Operators</item>
+        <item>Loading Machine Operators, Underground Mining</item>
+        <item>Hoist and Winch Operators</item>
+        <item>Industrial Truck and Tractor Operators</item>
+        <item>Cleaners of Vehicles and Equipment</item>
+        <item>Laborers and Freight, Stock, and Material Movers, Hand</item>
+        <item>Machine Feeders and Offbearers</item>
+        <item>Packers and Packagers, Hand</item>
+        <item>Gas Compressor and Gas Pumping Station Operators</item>
+        <item>Pump Operators, Except Wellhead Pumpers</item>
+        <item>Wellhead Pumpers</item>
+        <item>Refuse and Recyclable Material Collectors</item>
+        <item>Mine Shuttle Car Operators</item>
+        <item>Tank Car, Truck, and Ship Loaders</item>
+        <item>Material Moving Workers, All Other</item>
+    </string-array>
+</resources>
